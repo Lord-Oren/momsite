@@ -1,0 +1,81 @@
+body{
+ 
+    background-color: rgb(180, 99, 70);
+    height: 3000px;
+}
+.paralax{
+    background-image: url(pics/PHOTO-2024-12-15-20-37-49.jpg);
+
+    min-height: 700px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.trans-fella{
+    display: flex;
+    flex-direction: column;
+}
+.Tidle{
+    color: black;
+   font-size: 80px;
+   margin-bottom: 0px;
+}
+.standard-p{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.split-words{
+    display: flex;
+    
+    
+    
+    
+}
+.para-title{
+    font-size: 50px;
+    
+}
+.left{
+    margin-right: 5px;
+font-size: 35px;
+
+}
+.left-p{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-right: 5px;
+}
+.right{
+    font-size: 25px;
+    
+}
+.right-p{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.para-pic{
+    height: 300px;
+
+
+}
+.largelet{
+    font-size: 200px;
+
+}
+.talks{
+    display: flex;
+    
+    flex-direction: column;
+    
+    
+    
+}
+.talk{
+    font-size: 20px;
+}

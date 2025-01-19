@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "../Madame webb"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Madame webb",
+		"liveServer.settings.port": 5501
+	}
+}

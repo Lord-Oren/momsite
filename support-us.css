@@ -1,0 +1,40 @@
+body{
+ 
+    background-color: rgb(180, 99, 70);
+    height: 3000px;
+}
+.cup{
+    display: grid;
+    grid-template-columns: 300px 500px 10px;
+   
+    row-gap: 0px;
+   column-gap: 0px;
+   margin-left: 100px;
+}
+.drink{
+    background-color: rgb(166, 59, 59);
+    height: 250px;
+    width: 250px;
+    border-radius: 200px;
+    
+}
+.mirage{
+    opacity: 0;
+}
+
+.drink:hover{
+    height: 450px;
+    width: 450px;
+    border-radius: 400px;
+    background-color: gray;
+    opacity: 1px;
+
+}
+.drink:hover .mirage{
+    
+    opacity: 1;
+
+}
+.drink:hover .ice{
+    opacity: 0;
+}
