@@ -7,6 +7,7 @@ body{
 .parallax-section {
     position: relative;
     height: 60vh; /* Parallax only for this section */
+    width: 80vh;
     overflow: hidden;
     display: flex;
     align-items: center;
