@@ -1,12 +1,15 @@
 body{
  
-    background-color: rgb(180, 99, 70);
+    
+    background-color: aquamarine;
     height: 3000px;
 }
 .paralax{
     background-image: url(pics/PHOTO-2024-12-15-20-37-49.jpg);
+    max-height: 1024px;
 
-    min-height: 18%;
+    height: 100%; 
+    width: 100%;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -73,12 +76,6 @@ font-size: 35px;
     
     flex-direction: column;
     
-    
-    
-}
-.talk{
-    font-size: 20px;
-}
     
     
 }
