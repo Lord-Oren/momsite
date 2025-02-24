@@ -116,3 +116,9 @@ font-size: 35px;
 .talk{
     font-size: 20px;
 }
+  @media (max-width: 768px) {
+            .parallax-section::before {
+                background-attachment: scroll;
+                transform: scale(1.1);
+            }
+        }
