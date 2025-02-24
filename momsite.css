@@ -6,7 +6,7 @@ body{
 .paralax{
     background-image: url(pics/PHOTO-2024-12-15-20-37-49.jpg);
 
-    min-height: 700px;
+    min-height: 18%;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -60,7 +60,7 @@ font-size: 35px;
     justify-content: space-between;
 }
 .para-pic{
-    height: 300px;
+    height: 100%;
 
 
 }
@@ -73,6 +73,12 @@ font-size: 35px;
     
     flex-direction: column;
     
+    
+    
+}
+.talk{
+    font-size: 20px;
+}
     
     
 }
