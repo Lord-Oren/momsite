@@ -4,14 +4,14 @@ body{
     height: 3000px;
 }
 .muse{
-    height: 850px;
+    height:29%;
     margin-left: 40px;
     z-index: 6;
 }
 .slideshow-container{
     background-color: white;
-    height: 270px;
-    max-width: 270px;
+    height: 100%;
+    max-width: 100%;
     width: 100%;
     margin-top: -610px;
     margin-left: 650px;
