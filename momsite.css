@@ -1,13 +1,13 @@
 body{
  
-     
-   background-color: aqua;
+    background-color: rgb(180, 99, 70);
+   background-color:darkblue;
     height: 3000px;
 }
 .paralax{
     background-image: url(pics/PHOTO-2024-12-15-20-37-49.jpg);
     height: 60vh;
-    width: 100%;
+    width: 220vh;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
