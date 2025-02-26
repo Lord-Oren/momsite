@@ -57,6 +57,7 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
+    flex:1;
 }
 .Tidle{
     color: rgb(226, 80, 7);
