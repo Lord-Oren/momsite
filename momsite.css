@@ -15,6 +15,10 @@ body{
     
     font-size: 2rem;
     text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+    
+         
+         
+    
 }
 .subtext{
     color: rgb(226, 80, 7);
@@ -68,6 +72,8 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
+     
+    text-align: center;
     
     
     
@@ -79,10 +85,16 @@ body{
 .split-words{
     display: flex;
     
-    
+    flex-wrap: wrap;
     
     
 }
+.split-words img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+
 .split-word{
     display: flex;
     flex-direction: column;
@@ -124,14 +136,19 @@ font-size: 35px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    flex: 1;
+    min-width: 200px;
+    text-align: left;
 }
+ 
 .para-pic{
     height: 100%;
 
 
 }
 .largelet{
-    font-size: 200px;
+    font-size: 10vw; /* Make it scale dynamically */
+    text-align: center;
 
 }
 .talks{
@@ -149,5 +166,41 @@ font-size: 35px;
     .parallax-section::before {
         background-attachment: scroll;
         transform: scale(1.1);
+    }
+}
+@media (max-width: 768px) {
+    /* Stack split-words content */
+    .split-words {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .split-words img {
+        width: 80%; /* Scale images properly */
+    }
+
+    /* Reduce Font Sizes */
+    .Tidle {
+        font-size: 6vw;
+    }
+
+    .para-title {
+        font-size: 5vw;
+    }
+
+    .talk {
+        font-size: 16px;
+    }
+
+    /* Navigation Bar Adjustments */
+    .nav-bar {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav-bar a {
+        padding: 8px;
+        font-size: 16px;
     }
 }
