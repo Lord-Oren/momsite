@@ -27,7 +27,18 @@ body{
     display: flex;
     flex-direction: column;
     flex: 1;
+    width: 100%;
+    flex-wrap: nowrap;
      
+}
+.bigpic{
+    width: 100%;
+}
+.headd{
+width: 100%;
+height: 80vh;
+height: 20%vh;
+border-radius: 20px;
 }
 .paralax{
     background-image: url(pics/PHOTO-2024-12-15-20-37-49.jpg);
@@ -68,6 +79,7 @@ body{
     flex-direction: column;
     align-items: center;
     flex:1;
+    flex-wrap: nowrap;
 }
 .Tidle{
     color: rgb(226, 80, 7);
@@ -168,27 +180,33 @@ font-size: 35px;
 .talk{
     font-size: 20px;
 }
-@media (max-width: 768px) {
-    .parallax-section::before {
-        background-attachment: scroll;
-        transform: scale(1.1);
-    }
-}
-@media (max-width: 768px) {
+ 
+@media (max-width: 868px) {
     /* Stack split-words content */
+    .parallax-section{
+        width: 100%;
+    }
     .split-words {
         flex-direction: column;
         align-items: center;
         text-align: center;
+        width: 100%;
     }
 
     .split-words img {
-        width: 80%; /* Scale images properly */
+        width: 100%; /* Scale images properly */
     }
+    .cup{
+        width: 100vh;
+    }
+    .headd{
+        width: 350%;
+        }
 
     /* Reduce Font Sizes */
     .Tidle {
-        font-size: 6vw;
+        font-size: 8vw;
+        width: 100%;
     }
 
     .para-title {
