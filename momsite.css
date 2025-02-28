@@ -164,20 +164,6 @@ font-size: 35px;
 
 
 }
-.nav-bar{
-    background-color: rgb(226, 80, 7);
-    height: 4vh;
-    display: flex;
-    justify-content: space-between;
-    border-radius: 20px;
-    padding: 2vh;
-}
-.nav-butt{
-     
-    
-    color: white;
-    font-family:fantasy;
-}
 .largelet{
     font-size: 10vw; /* Make it scale dynamically */
     text-align: center;
