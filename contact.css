@@ -1,5 +1,45 @@
 body{
  
-    background-color: rgb(180, 99, 70);
+    background-color: rgb(245, 147, 111);
     height: 3000px;
+}
+ 
+ 
+.nav-bar{
+    background-color: rgb(226, 80, 7);
+    height: 4vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-radius: 20px;
+    padding: 2vh;
+    width: 212vh;
+}
+.nav-butt{
+     
+    
+    color: white;
+    font-family:fantasy;
+}
+.talke{
+    background-color: rgb(226, 80, 7);
+    border-radius: 10px;
+    padding: 10px;
+    color: rgb(237, 153, 111);
+    margin-left: 400px;
+    font-size: 30px;
+    height: 200px;
+}
+
+@media (max-width :1000px) {
+
+    .nav-bar {
+        width: 40.9vh;
+    }
+
+    .nav-bar a {
+        padding: 8px;
+        font-size: 16px;
+    }
+
 }
