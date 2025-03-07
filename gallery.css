@@ -4,13 +4,16 @@ body{
     height: 3000px;
 }
  
+ 
 .nav-bar{
     background-color: rgb(226, 80, 7);
     height: 4vh;
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     border-radius: 20px;
     padding: 2vh;
+    width: 212vh;
 }
 .nav-butt{
      
@@ -18,9 +21,12 @@ body{
     color: white;
     font-family:fantasy;
 }
+.muse{
+    height: 30vh;
+ }
 .art-house{
     background-image: url("pics/frrame.png");
-    background-color: aquamarine;
+     
     background-repeat: no-repeat;
      display: flex;
      height: 500px;
@@ -28,14 +34,149 @@ body{
       width: 82vh;
     position: absolute;
     right: 60vh;
+    justify-content: center;
+    margin-right: -50vh;
+    margin-top: 0px;
       
      align-items: center;
+     width:100%
      
 }
- .muse{
-    height: 30vh;
- }
+ 
+.art-house-too{
+    background-image: url("pics/frrame.png");
+     
+    background-repeat: no-repeat;
+     display: flex;
+     height: 500px;
+      background-size: 600px;
+      width: 82vh;
+    position: absolute;
+    right: 60vh;
+    justify-content: center;
+    margin-right: -20vh;
+    margin-top: 0px;
+      
+     align-items: center;
+     margin-right: -40vh;
+     margin-top:100vh
+     
+     
+}
+.art-house-tree{
+    background-image: url("pics/frrame.png");
+     
+    background-repeat: no-repeat;
+     display: flex;
+     height: 500px;
+      background-size: 600px;
+      width: 82vh;
+    position: absolute;
+    right: 60vh;
+    justify-content: center;
+    margin-right: -20vh;
+    margin-top: 0px;
+      
+     align-items: center;
+     margin-right: -90vh;
+     margin-top:10vh
+     
+}
+.art-house-for{
+    background-image: url("pics/frrame.png");
+     
+    background-repeat: no-repeat;
+     display: flex;
+     height: 500px;
+      background-size: 600px;
+      width: 82vh;
+    position: absolute;
+    right: 60vh;
+    justify-content: center;
+    margin-right: -20vh;
+     
+      
+     align-items: center;
+     margin-right: -130vh;
+      
+     
+}
+ 
+ 
  .mySlides{
-    margin-left: 15vh;
-    height: 200px;
+    
+    height: 160px;
+    margin-left: 175px;
+    margin-top: -190px;
  }
+ .locke{
+    margin-top: 50vh;
+    display: grid;
+    height: 100px;
+    grid-template-columns: 1fr 1fr 1fr 1fr  ;
+    row-gap: 200px;
+    column-gap: 50px;
+     
+
+ }
+ .picke{
+    height: 200px;
+    width: 200px;
+    width:100%;
+    border-radius: 20px;
+ }
+ @media (max-width :1000px) {
+    .art-house{
+        position:static;
+        
+       
+       width: 300px;
+       background-position: top;
+       justify-content: center;
+       
+       margin-right: -100vh;
+       
+         
+    }
+    .locke{
+        margin-top: 10vh;
+        margin-right: -5vh;
+        grid-template-columns: 1fr 1fr 1fr  ;
+         
+    }
+    .picke{
+        width: 280px;
+        height: 270px;
+    }
+    .mySlides{}
+    .art-house-too{
+        position: static;
+
+    }
+    .art-house-tree{
+        position: static;
+
+    }
+    .art-house-for{
+        position: static;
+        margin-top: 2px;
+
+    }
+    .mySlides{
+        margin-left: 570px;
+        height: 130px;
+        width: 200px;
+        
+    }
+    .nav-bar {
+        width: 40.9vh;
+    }
+
+    .nav-bar a {
+        padding: 8px;
+        font-size: 16px;
+    }
+    
+ } 
+    
+ 
