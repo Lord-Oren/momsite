@@ -290,6 +290,13 @@ font-size: 35px;
 }
  
 @media (max-width: 1000px) {
+    
+    .trans-fella{
+        margin-bottom: 0vh;
+    }.split-wordss{
+        margin-top: 30vh;
+    }
+
     /* Stack split-words content */
     .parallax-section{
         width: 100%;
@@ -331,11 +338,12 @@ font-size: 35px;
 
     /* Reduce Font Sizes */
     .Tidle {
-        font-size: 7.5vw;
+        font-size: 5.2vw;
         width: 80%;
         position: absolute;
+        margin-bottom: 20vh;
         left: 0;
-        top: 340px;
+        top: 360px;
     }
 
     .para-title {
