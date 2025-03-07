@@ -22,6 +22,7 @@ body{
 }
 .subtext{
     color: rgb(226, 80, 7);
+    font-size: 28px;
 }
 .cup{
     display: flex;
@@ -32,12 +33,13 @@ body{
      
 }
 .bigpic{
-    width: 100%;
+    width: 215vh;
+    height: 67vh;
 }
 .headd{
 width: 100%;
 height: 80vh;
-height: 20%vh;
+height: 80vh;
 border-radius: 20px;
 }
 .paralax{
@@ -86,6 +88,25 @@ border-radius: 20px;
    font-size: 80px;
    margin-bottom: 0px;
 }
+.talku{
+    background-color: rgb(226, 80, 7);
+    border-radius: 10px;
+    padding: 10px;
+    color: rgb(237, 153, 111);
+    width: 30vh;
+    color: rgb(226, 80, 7);
+    background-color: rgb(237, 153, 111);
+}
+.talkuu{
+    background-color: rgb(226, 80, 7);
+    border-radius: 10px;
+    padding: 10px;
+    color: rgb(237, 153, 111);
+    width: 30vh;
+    margin-top: 55px;
+    color: rgb(226, 80, 7);
+    background-color: rgb(237, 153, 111);
+}
 .standard-p{
     display: flex;
     flex-direction: column;
@@ -102,8 +123,43 @@ border-radius: 20px;
 }
 .split-words{
     display: flex;
+    margin-top: 150px;
+    margin-left: 100px;
+     height: 300px;
+     width: 1241px;
     
-    flex-wrap: wrap;
+    
+    
+    
+}
+.split-wordss{
+    display: flex;
+    
+    
+    
+    
+}
+.split-wordsss{
+    display: flex;
+    margin-top: -150px;
+    
+    
+    
+    
+}
+.split-wordssss{
+    display: flex;
+    margin-top: -150px;
+    
+    
+    
+    
+}
+.ssplit-wordsss{
+    display: flex;
+    margin-top: -150px;
+    
+    
     
     
 }
@@ -116,6 +172,15 @@ border-radius: 20px;
 .split-word{
     display: flex;
     flex-direction: column;
+    
+    
+    
+    
+}
+.split-wordd{
+    display: flex;
+    flex-direction: column;
+    margin-left: -1150px;
     
     
     
@@ -134,6 +199,13 @@ border-radius: 20px;
     border-radius: 10px;
     padding: 10px;
     color: rgb(237, 153, 111);
+}
+.talke{
+    background-color: rgb(226, 80, 7);
+    border-radius: 10px;
+    padding: 10px;
+    color: rgb(237, 153, 111);
+    margin-left: 400px;
 }
 .left{
     margin-right: 5px;
@@ -161,52 +233,109 @@ font-size: 35px;
  
 .para-pic{
     height: 100%;
+    width: 200px; 
+    height: 200px;
 
 
+}
+.nav-bar{
+    background-color: rgb(226, 80, 7);
+    height: 4vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-radius: 20px;
+    padding: 2vh;
+    width: 212vh;
+}
+.nav-butt{
+     
+    
+    color: white;
+    font-family:fantasy;
 }
 .largelet{
     font-size: 10vw; /* Make it scale dynamically */
     text-align: center;
 
 }
+.largelett{
+    margin-top:-30px;
+    font-size: 335px;
+}
 .talks{
     display: flex;
     
     flex-direction: column;
-    
+    margin-top:30px;
     
     
 }
 .talk{
     font-size: 20px;
 }
+.talko{
+    font-size: 20px;
+    
+}
+.talkso{
+    display: flex;
+    
+    flex-direction: column;
+    margin-top:30px;
+    row-gap: 0; 
+    align-items: center;
+    column-gap: 0px; 
+
+}
  
-@media (max-width: 868px) {
+@media (max-width: 1000px) {
     /* Stack split-words content */
     .parallax-section{
         width: 100%;
     }
-    .split-words {
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-        width: 100%;
+    .para-pic{
+        margin-left: 120px;
+        height: 15vh;
+         width: 15vh;
     }
+   
+     .standard-p{
+        width: 45vh;
+     }
+     .talko{
+        font-size: 12px;
+     }
 
     .split-words img {
         width: 100%; /* Scale images properly */
+    }
+    .split-words{
+        margin-left: 0;
+
     }
     .cup{
         width: 100vh;
     }
     .headd{
-        width: 350%;
+        width: 140%;
+        height: 100%;
+        }
+        .bigpic{
+            width:35vh;
+            height: 35vh;
+        }
+        .talks{
+            margin-top: -20vh;
         }
 
     /* Reduce Font Sizes */
     .Tidle {
-        font-size: 8vw;
-        width: 100%;
+        font-size: 7.5vw;
+        width: 80%;
+        position: absolute;
+        left: 0;
+        top: 340px;
     }
 
     .para-title {
@@ -219,12 +348,66 @@ font-size: 35px;
 
     /* Navigation Bar Adjustments */
     .nav-bar {
-        flex-direction: column;
-        align-items: center;
+        width: 40.9vh;
     }
 
     .nav-bar a {
         padding: 8px;
         font-size: 16px;
     }
+    .split-wordss{
+        margin-top: 70px;
+        margin-right: 650px;
+        font-size: 10px;
+    }
+    .subtext{
+        font-size: 12px;
+    }
+    .split-wordsss{
+        display: flex;
+        flex-direction: row;
+        margin-top: 2px;
+        
+        
+        
+        
+    }
+    .largelett{
+        font-size: 90px;
+        margin-top: 110px;
+        margin-right: -20px;
+    }
+    .talke{
+        margin-left: 0;
+        width: 45vh;
+         
+    }
+    .split-wordd{
+        margin-left: 0px;
+    }
+    .ssplit-wordsss{
+        margin-top: 2px;
+        width: 80vh;
+    }
+    .talku{
+        margin-left: -470px;
+        margin-bottom: 25px;
+
+    }
+    .talkuu{
+        margin-left: -470px;
+
+    }
+    .talkso{
+        margin-top: -15vh;
+        
+    }
+    .yams{
+        margin-top: 15vh;
+    }
+    .split-wordssss{
+         flex-direction: column;
+         margin-left: -5px;
+    }
+    
 }
