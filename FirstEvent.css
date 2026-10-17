@@ -1,0 +1,66 @@
+body{
+ 
+    background-color: rgb(245, 147, 111);
+    height: 3000px;
+}
+ 
+ 
+.nav-bar{
+    background-color: rgb(226, 80, 7);
+    height: 4vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-radius: 20px;
+    padding: 2vh;
+    width: 204vh;
+}
+.nav-butt{
+     
+    
+    color: white;
+    font-family:fantasy;
+}
+.crp{
+    display: flex;
+    flex-direction:row ;
+    justify-content: space-between;
+}
+
+.frntpage{
+    height: 400px;
+    
+}
+.vidpair{
+    display: flex;
+    flex-direction: column;
+}
+.Tidle 
+{
+ font-size: 5.2vw;
+ position: relative;
+ top: -50px;   
+ margin-bottom: -80px;   
+       
+       
+    
+        
+    }
+
+    .mediapouch{
+        display: flex;
+        flex-direction: column;
+        width: 1525px;
+        background-color: aliceblue;
+    }
+    .griddy{
+        display: flex;
+        flex-direction: row;
+        border:solid black 4px;
+    }
+    .snapshot{
+        height: 300px;
+        width: 310px;
+        border:solid black 4px;
+    }
+    

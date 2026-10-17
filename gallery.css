@@ -125,6 +125,34 @@ body{
     width:100%;
     border-radius: 20px;
  }
+ .rolladex{
+    display: flex;
+    flex-direction: column;
+   position: relative;
+   left: 50px;
+   bottom: 120px;
+    background-color: rgb(226, 80, 7);
+    border-radius: 20px;
+    height: 200px;
+    width: 200px;
+
+ }
+ .plate{
+   
+    display: flex;
+    flex-direction: column;
+    width: 390px;
+    height:80px ;
+    justify-content:space-between;
+ }
+ .eve{
+     background-color: rgb(245, 147, 111);
+     border-radius: 25px;
+     color: rgb(226, 80, 7) ;
+     text-decoration: none;
+     font-size:14px;
+
+ }
  @media (max-width :1000px) {
     .art-house{
         position:static;
